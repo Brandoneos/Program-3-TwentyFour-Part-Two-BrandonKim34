@@ -3,7 +3,7 @@
 Program 3: TwentyFour Part 2
 Course: CS 211, Spring 2023, UIC
 System: Replit
-Author: Brandon Kim
+Author: Brandon Kim 
 -----------------------------------------*/
 
 #include <ctype.h>
@@ -28,7 +28,7 @@ void displayList(NodePtr pHead) {
 
   printf("\n");
 } // end displayList()
-//function to pop the last element of the linked list, return string as the returnstring
+//function to pop last element of the linked list, return string as the returnstring
 void pop(NodePtr *pHead, char *returnstring) {
   // char ca[3];
   NodePtr prev = NULL;
